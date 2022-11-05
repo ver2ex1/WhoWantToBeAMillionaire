@@ -1,0 +1,47 @@
+.default {
+  background: url("../../assets/defaultMoney.svg") no-repeat center;
+  text-align: center;
+  height: 40px;
+  width: 309px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inactive {
+  background: url("../../assets/defaultMoney.svg") no-repeat center;
+  text-align: center;
+  height: 40px;
+  width: 309px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d0d0d8;
+}
+
+.active {
+  background: url("../../assets/activeMoney.svg") no-repeat center;
+  text-align: center;
+  height: 40px;
+  width: 309px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff8b37;
+}
+
+@media screen and (max-width: 768px) {
+  .default {
+    background-size: auto 32px;
+    height: 32px;
+  }
+  .active {
+    background-size: auto 32px;
+    height: 32px;
+  }
+
+  .inactive {
+    background-size: auto 32px;
+    height: 32px;
+  }
+}

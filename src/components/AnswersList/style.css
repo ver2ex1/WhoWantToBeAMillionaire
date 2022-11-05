@@ -1,0 +1,17 @@
+.answerListWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px 0px;
+}
+
+.answerListWrapper > div {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .answerListWrapper {
+    gap: 8px 0px;
+    align-items: center;
+  }
+}

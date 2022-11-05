@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { lazy, Suspense } from "react";
+import { Routes, Route } from "react-router-dom";
+import Loader from "components/Loader";
+import routes from "config/routes";
+
+const StartPage = lazy(() => import("pages/Start"));
+const GamePage = lazy(() => import("pages/Game"));
+
+const routesWithPage = [
+  {
+    path: routes.start,
+    Component: <StartPage />,
+  },
+  {
+    path: routes.game,
+    Component: <GamePage />,
+  },
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Suspense fallback={<Loader />}>
+      <Routes>
+        {routesWithPage.map((route) => (
+          <Route key={route.path} path={route.path} element={route.Component} />
+        ))}
+      </Routes>
+    </Suspense>
   );
 }
 

@@ -1,0 +1,127 @@
+{
+  "questions": [
+    {
+      "text": "Хто винайшов консервну банку?",
+      "answers": [
+        { "correct": false, "text": "Флоренція Бейлі" },
+        { "correct": true, "text": "Пітер Дуранд" },
+        { "correct": false, "text": "Аделунг Федір Павлович" },
+        { "correct": false, "text": "Карл Вільгельм Беттігер" }
+      ]
+    },
+    {
+      "text": "Скільки гравців у команді з водного поло?",
+      "answers": [
+        { "correct": true, "text": "Сім" },
+        { "correct": false, "text": "Одиннадцять" },
+        { "correct": false, "text": "П'ять" },
+        { "correct": false, "text": "Десять" }
+      ]
+    },
+    {
+      "text": "Яка країна виграла Кубок світу в Іспанії 1982 року, перемігши Західну Німеччину 3-1?",
+      "answers": [
+        { "correct": false, "text": "Східна Німеччина" },
+        { "correct": false, "text": "Франція" },
+        { "correct": true, "text": "Італія" },
+        { "correct": false, "text": "Аргентина" }
+      ]
+    },
+    {
+      "text": "У якому році було вперше випущено Хрещеного батька?",
+      "answers": [
+        { "correct": false, "text": "1971" },
+        { "correct": false, "text": "1973" },
+        { "correct": true, "text": "1972" },
+        { "correct": false, "text": "1974" }
+      ]
+    },
+    {
+      "text": "Як називається найбільша технологічна компанія в Південній Кореї?",
+      "answers": [
+        { "correct": false, "text": "Korean Air" },
+        { "correct": true, "text": "Samsung" },
+        { "correct": false, "text": "JTBC" },
+        { "correct": false, "text": "Never Corporation" }
+      ]
+    },
+    {
+      "text": "Який художник створив «Кемпбелл суп-банки» в 1962 році?",
+      "answers": [
+        { "correct": false, "text": "Рембрандт ван Рейн" },
+        { "correct": true, "text": "Енді Уорхол" },
+        { "correct": false, "text": "Дієго Веласкес" },
+        { "correct": false, "text": "Пітер Пауль Рубенс" }
+      ]
+    },
+    {
+      "text": "Яка середня температура поверхні на Венері?",
+      "answers": [
+        { "correct": false, "text": "1060°C" },
+        { "correct": false, "text": "360°C" },
+        { "correct": false, "text": "455°C" },
+        { "correct": true, "text": "460°C" }
+      ]
+    },
+    {
+      "text": "Станом на 2020 рік, хто був останнім валлійцем, який виграв чемпіонат світу зі снукеру?",
+      "answers": [
+        { "correct": false, "text": "Джо Девіс" },
+        { "correct": false, "text": "Джон Гіггінс" },
+        { "correct": false, "text": "Ліам Девіс" },
+        { "correct": true, "text": "Марк Вільямс" }
+      ]
+    },
+    {
+      "text": "Де описана легенда про заснування Києва?",
+      "answers": [
+        { "correct": false, "text": "Літопис Самовидця" },
+        { "correct": false, "text": "Слово о полку Ігоревім" },
+        { "correct": true, "text": "Повість минулих літ" },
+        { "correct": false, "text": "Літопис Величка" }
+      ]
+    },
+    {
+      "text": "Як віддячила Гера ракові, який допомагав Лернейській гідрі у поєдинку з Гераклом?",
+      "answers": [
+        { "correct": false, "text": "Подарувала йому ріку" },
+        { "correct": false, "text": "Забрала його на Олімп" },
+        { "correct": true, "text": "Зробила його сузір’ям" },
+        { "correct": false, "text": "Зробила його безсмертним" }
+      ]
+    },
+    {
+      "text": "В якому з перерахованих озер тече не прісна, а солона вода?",
+      "answers": [
+        { "correct": false, "text": "Озеро Ньяса" },
+        { "correct": false, "text": "Байкал" },
+        { "correct": true, "text": "Дон Жуан" },
+        { "correct": false, "text": "Світязь" }
+      ]
+    },
+    {
+      "text": "Проти якого перського царя виступив Олександр Великий на річці  Ґранік у 334 р. до н.е.?",
+      "answers": [
+        { "correct": false, "text": "Аршана" },
+        { "correct": false, "text": "Артаксеркса ІІ" },
+        { "correct": false, "text": "Артаксеркса ІІІ" },
+        { "correct": true, "text": "Дарія ІІІ" }
+      ]
+    }
+  ],
+  "money": [
+    "$500",
+    "$1,000",
+    "$2,000",
+    "$4,000",
+    "$8,000",
+    "$16,000",
+    "$32,000",
+    "$64,000",
+    "$125,000",
+    "$250,000",
+    "$500,000",
+    "$1,000,000"
+  ],
+  "letters": ["A", "B", "C", "D"]
+}
